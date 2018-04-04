@@ -1,0 +1,128 @@
+html{
+	font-size: 10px;
+}
+
+body {
+	background: url(img/default-weather.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 550px;
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+	position: relative;
+}
+
+/* Location */
+.title {	
+	color: #FFF;
+	font-size: 7rem;
+	margin-top: 5%;
+	padding-top: 2%;
+}
+
+/* Opacity background */
+.info-background {
+	background-color: lightyellow;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+.currentWeather {
+	margin: auto;
+	max-width: 65%;
+	padding-bottom: 5%;
+	text-shadow: 2px 2px 1px black; 
+	width: auto;
+	color: #2acef9;
+	font-size: 8rem;
+	font-family: "Open Sans", sans-serif;	
+}
+
+/* Temperature */
+.temp {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 20px 0;
+}
+
+.temp #currentTemp {
+	margin-right: 20px;	
+}
+
+.tempSymbols {
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 4rem;	
+}
+
+/* classes for toggling tempSymbols */
+.opClass {
+	opacity: .4;
+}
+
+.active {
+	opacity: 1;
+}
+
+/* Weather icon */
+.conditions {
+	font-size: 4rem;
+}
+
+.weatherDetail {
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+/* Logotip */
+.developer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0.7;
+}
+
+.logo-footer {
+  padding: 15px 0;
+  float: left;
+}
+
+.dev {
+  display: inline-block;
+  padding: 5px 10px 5px; 
+  margin-top: 10px;
+}
+
+.created {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dev:hover {
+	color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}

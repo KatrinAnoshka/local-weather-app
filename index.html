@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="container text-center">
+	
+		<div class="row">
+			<div class="col-md-12">
+				<div class="currentWeather">
+
+						<!-- 		Location		 -->
+					<h1 class="title" id="localCity">Current Location</h1>
+
+						<!-- 			Opacity background	 -->
+					<div class="info-background">
+
+						<!-- 			Temperature		 -->
+						<div class="temp">
+						<span id="currentTemp">current temp</span>
+							<div class="tempSymbols">
+								<span class="symbol" id="celsius" title="Click to change from Celsius to Fahrenheit.">&#8451</span>
+								<span class="symbol" id="farenheight" title="Click to change from Fahrenheit to Celsius.">&#8457</span>
+							</div>
+						</div>
+
+						<!-- 			Weather icon			 -->
+						<div class="weatherDetail">
+							<i class="wi" id="weatherIcon"></i>
+							<span class="conditions" id="weatherConditions"></span>
+						</div>
+					
+					</div>
+				
+				</div>
+			</div>
+		</div>	
+
+	<!--    Logotip     -->
+	<div class="developer">	
+		<a href="https://codepen.io/Katrin_A/full/KQpwKL/" rel="nofollow" target="_blank" class="created">
+		<img src="img/logo.png" class="logo-footer " alt="Logo">		 
+		<div class="dev">Developed by <br>Katrin Anoshka</div>
+		</a>
+	</div>
+
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
